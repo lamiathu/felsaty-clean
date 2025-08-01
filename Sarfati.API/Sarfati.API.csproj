@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>Sarfati</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Azureblue.ApplicationInsights.RequestLogging" Version="2.3.1" />
+        <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+        <PackageReference Include="Microsoft.ApplicationInsights.Profiler.AspNetCore" Version="2.7.2" />
+        <PackageReference Include="Microsoft.Extensions.Azure" Version="1.11.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Sarfati.Core\Sarfati.Core.csproj" />
+        <ProjectReference Include="..\Sarfati.Data\Sarfati.Data.csproj" />
+        <ProjectReference Include="..\Sarfati.Domain\Sarfati.Domain.csproj" />
+        <ProjectReference Include="..\Sarfatri.infrastructure\Sarfatri.infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers\" />
+    </ItemGroup>
+
+</Project>

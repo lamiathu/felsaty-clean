@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Sarfati.Core\Sarfati.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+            <HintPath>..\..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.7\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="Repository\MarketPlace\SQL\CancelOrder.sql" />
+        <None Remove="Repository\MarketPlace\SQL\CreateLikeCardOrder.sql" />
+        <None Remove="Repository\MarketPlace\SQL\CreateOrder.sql" />
+        <None Remove="Repository\MarketPlace\SQL\GetExistingOrderIdByIdempotency.sql" />
+        <None Remove="Repository\MarketPlace\SQL\GetPaginatedOrders.sql" />
+        <None Remove="Repository\MarketPlace\SQL\GetProductsByIds.sql" />
+        <None Remove="Repository\MarketPlace\SQL\GetProductsByOrderIds.sql" />
+        <None Remove="Repository\MarketPlace\SQL\GetProductsIdByOrderId.sql" />
+        <None Remove="Repository\MarketPlace\SQL\ProcessOrder.sql" />
+        <None Remove="Repository\SQL\AddChild.sql" />
+        <None Remove="Repository\SQL\DeleteChild.sql" />
+        <None Remove="Repository\SQL\DeleteParent.sql" />
+        <None Remove="Repository\SQL\DeleteReward.sql" />
+        <None Remove="Repository\SQL\DeleteTask.sql" />
+        <None Remove="Repository\SQL\GetNotificationById.sql" />
+        <None Remove="Repository\SQL\GetPassDurationRewards.sql" />
+        <None Remove="Repository\SQL\GetPassDurationTasks.sql" />
+        <None Remove="Repository\SQL\GetRewardsById.sql" />
+        <None Remove="Repository\SQL\RejectTaskForChild.sql" />
+        <None Remove="Repository\SQL\RemoveRewardChildId.sql" />
+        <None Remove="Repository\SQL\UpdateChildPoints.sql" />
+        <None Remove="Repository\SQL\UpdateChildReward.sql" />
+        <None Remove="Repository\SQL\UpdateParentById.sql" />
+        <None Remove="Repository\SQL\UpdatePastDueRewards.sql" />
+        <None Remove="Repository\SQL\UpdateRewardById.sql" />
+        <None Remove="Repository\SQL\UpdateTaskStatusToApproved.sql" />
+        <None Remove="Repository\SQL\UpdateTaskStatusToComplete.sql" />
+        <None Remove="Repository\SQL\AddTask.sql" />
+        <None Remove="Repository\SQL\AddReward.sql" />
+        <None Remove="Repository\MarketPlace\SQL\GetCategories.sql" />
+        <None Remove="Repository\MarketPlace\SQL\GetProducts.sql" />
+        <None Remove="Repository\MarketPlace\SQL\UpdateCategories.sql" />
+        <None Remove="Repository\MarketPlace\SQL\GetwhitelistedCategoryIds.sql" />
+        <None Remove="Repository\MarketPlace\SQL\UpdateGiftCardStatusById.sql" />
+        <None Remove="Repository\MarketPlace\SQL\SearchProduct.sql" />
+    </ItemGroup>
+
+</Project>

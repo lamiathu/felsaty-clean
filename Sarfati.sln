@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sarfati.API", "Sarfati.API\Sarfati.API.csproj", "{385CC3A2-AD18-42AD-8144-DBE2FE7E2194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sarfati.Domain", "Sarfati.Domain\Sarfati.Domain.csproj", "{16339927-EB15-46A3-8084-40CBC444E21B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sarfati.Core", "Sarfati.Core\Sarfati.Core.csproj", "{11ED6C13-3AA5-4FF2-A783-F5077C42BABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sarfati.Data", "Sarfati.Data\Sarfati.Data.csproj", "{17B883B7-B134-4FFC-96CF-A10C3DC4BB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SarfatiTesting", "SarfatiTesting\SarfatiTesting.csproj", "{3B800641-A548-41B9-B8CB-9AD7A5557BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sarfatri.infrastructure", "Sarfatri.infrastructure\Sarfatri.infrastructure.csproj", "{434FCE35-2CF7-4971-A077-995DAD7F98ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{385CC3A2-AD18-42AD-8144-DBE2FE7E2194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385CC3A2-AD18-42AD-8144-DBE2FE7E2194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385CC3A2-AD18-42AD-8144-DBE2FE7E2194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385CC3A2-AD18-42AD-8144-DBE2FE7E2194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16339927-EB15-46A3-8084-40CBC444E21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16339927-EB15-46A3-8084-40CBC444E21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16339927-EB15-46A3-8084-40CBC444E21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16339927-EB15-46A3-8084-40CBC444E21B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11ED6C13-3AA5-4FF2-A783-F5077C42BABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11ED6C13-3AA5-4FF2-A783-F5077C42BABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11ED6C13-3AA5-4FF2-A783-F5077C42BABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11ED6C13-3AA5-4FF2-A783-F5077C42BABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B883B7-B134-4FFC-96CF-A10C3DC4BB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B883B7-B134-4FFC-96CF-A10C3DC4BB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B883B7-B134-4FFC-96CF-A10C3DC4BB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B883B7-B134-4FFC-96CF-A10C3DC4BB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B800641-A548-41B9-B8CB-9AD7A5557BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B800641-A548-41B9-B8CB-9AD7A5557BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B800641-A548-41B9-B8CB-9AD7A5557BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B800641-A548-41B9-B8CB-9AD7A5557BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434FCE35-2CF7-4971-A077-995DAD7F98ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434FCE35-2CF7-4971-A077-995DAD7F98ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434FCE35-2CF7-4971-A077-995DAD7F98ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434FCE35-2CF7-4971-A077-995DAD7F98ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
